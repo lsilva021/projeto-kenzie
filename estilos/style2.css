@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: 'JetBrains Mono';
+}
+
+section{
+    padding: 80px;
+}
+
+.concurso{
+    background-color: #00005F;
+}
+
+.conteudo{
+    background-color: #00002A;
+}
+
+.calendario{
+    background-color: #00005F;
+}
+
+svg{
+    padding-bottom: 30px;
+    fill: white;
+    width: 32px;
+}
+
+.bolsa{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 110px;
+    font-weight: 900;
+    padding: 32px 0;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    padding-bottom: 32px;
+    line-height: 32px;
+}
+
+button{
+    font-size: 22px;
+    font-family: 'JetBrains Mono';
+    background-color: #00ffa5;
+    font-weight: 700;
+    border: none;
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 42px;
+    padding: 32px 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+li{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    padding-bottom: 0;
+    
+}
+
+h3{
+    font-size: 30px;
+}
+
+li > p{
+    font-size: 14px;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+
+footer{
+    border-top: 1px solid gray;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+    background-color: #00002A;
+}
+
+@media (max-width: 1006px){
+    ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 890px){
+    h1{
+        font-size: 60px;
+    }
+}
